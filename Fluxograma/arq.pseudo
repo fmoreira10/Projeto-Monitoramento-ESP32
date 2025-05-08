@@ -1,0 +1,19 @@
+Início
+↓
+Conectar ao Wi-Fi
+↓
+Loop:
+    Ler sensor ultrassônico (nível da água)
+    Ler temperatura e umidade (DHT22)
+
+    Se nível da água < limite mínimo:
+        Acender LED
+        Acionar relé (válvula)
+
+    Senão:
+        Apagar LED
+        Desligar relé
+
+    Enviar dados para ThingSpeak (via MQTT/HTTP)
+    Aguardar 15 segundos
+Repetir
