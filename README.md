@@ -88,7 +88,7 @@ Tempo médio entre ações dos sensores e atuadores via MQTT:
 
 ## 📂 Documentação
 
-- 📄 [Relatório Final PDF](Documentacao/A3_Aplicando_Conhecimento.pdf)
+- 📄 [Relatório Final PDF](Documentacao/A3_Relatorio_Final)
 - 📝 [Relatório Word (editável)](Documentacao/Relatorio.docx)
 
 ---
