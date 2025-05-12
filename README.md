@@ -1,7 +1,5 @@
-# Projeto-Monitoramento-ESP32
-Implementação e Aplicabilidade da Internet das Coisas (IoT) na Gestão da Água e Saneamento
-
 # 🌊 Projeto de Monitoramento de Nível de Água com ESP32 e IoT
+Implementação e Aplicabilidade da Internet das Coisas (IoT) na Gestão da Água e Saneamento
 
 Este projeto foi desenvolvido como parte da atividade final da disciplina **OBJETOS INTELIGENTES CONECTADOS** no curso de Análise e Desenvolvimento de Sistemas.
 
@@ -34,18 +32,27 @@ A proposta é criar um sistema embarcado usando **ESP32**, sensores e atuadores,
 
 ---
 
-## 🧪 Funcionamento
-
-O sistema realiza a leitura dos sensores a cada 15 segundos e publica os dados no ThingSpeak via protocolo MQTT. O LED acende e o relé é acionado quando o nível de água está abaixo do limite crítico.
-
----
-
 ## 📊 Visualização dos Dados
 
 ![Gráfico ThingSpeak](Imagens/print_thingspeak.png)
 
 Você pode ver o canal ThingSpeak com os dados em tempo real aqui:  
 🔗 **[Canal ThingSpeak](https://thingspeak.mathworks.com/channels/2681880/private_show)**
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### 👉 Simulação via Wokwi:
+1. Acesse o link do projeto no Wokwi: [Acesse a simulação](https://wokwi.com/projects/410766655456274433)
+2. Clique em “Start Simulation”.
+3. Observe os dados sendo gerados no console e/ou ThingSpeak.
+
+### 👉 Execução Real (com protótipo físico):
+1. Conecte o ESP32 com os sensores conforme o diagrama.
+2. Faça upload do código no Arduino IDE.
+3. Insira suas credenciais Wi-Fi e chave do canal ThingSpeak no código.
+4. Abra o monitor serial para acompanhar os dados.
 
 ---
 
@@ -86,6 +93,13 @@ Tempo médio entre ações dos sensores e atuadores via MQTT:
 
 ---
 
+## 📄 Artigo do Projeto
+
+Acesse a documentação acadêmica completa do projeto:  
+📄 **[Artigo em PDF](documentacao/artigo-monitoramento-nivel-agua.pdf)**
+
+---
+
 ## 📂 Documentação
 
 - 📄 [Relatório Final PDF](Documentacao/A3_Relatorio_Final)
@@ -93,16 +107,36 @@ Tempo médio entre ações dos sensores e atuadores via MQTT:
 
 ---
 
-## 👥 Autores
+## ✅ Status do Projeto
 
-- Fernando Alvarenga Moreira  
-- David Santos da Silva  
-- Marcos Vinicius Acario Bastos
+- [x] Pesquisa teórica  
+- [x] Desenvolvimento do artigo  
+- [ ] Protótipo físico/simulação  
+- [ ] Upload do código  
+- [ ] Resultados e análise  
+- [ ] Conclusão final do artigo  
 
 ---
 
-## 🔗 Licença
+## 👥 Integrantes
 
-Este projeto é de uso acadêmico. Você pode utilizar e adaptar com os devidos créditos.
+- Fernando Alvarenga Moreira – [@fmoreira10](https://github.com/fmoreira10)  
+- David Santos da Silva  
+- Marcos Vinicius Acario Bastos  
+
+---
+
+## 📚 Referências
+
+- [ThingSpeak Documentation](https://thingspeak.com/)
+- [ESP32 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
+- [ODS 6 - ONU Brasil](https://brasil.un.org/pt-br/sdgs/6)
+
+---
+
+## 🧠 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para utilizar, modificar e distribuir com os devidos créditos.
+
 
 
