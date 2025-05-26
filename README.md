@@ -111,10 +111,10 @@ Acesse a documentação acadêmica completa do projeto:
 
 - [x] Pesquisa teórica  
 - [x] Desenvolvimento do artigo  
-- [ ] Protótipo físico/simulação  
-- [ ] Upload do código  
-- [ ] Resultados e análise  
-- [ ] Conclusão final do artigo  
+- [x] Protótipo físico/simulação  
+- [x] Upload do código  
+- [x] Resultados e análise  
+- [x] Conclusão final do artigo  
 
 ---
 
