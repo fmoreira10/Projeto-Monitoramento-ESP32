@@ -34,8 +34,7 @@ A proposta é criar um sistema embarcado usando **ESP32**, sensores e atuadores,
 
 ## 📊 Visualização dos Dados
 
-![Gráfico ThingSpeak](Projeto-Monitoramento-ESP32/Imagens
-/Captura de tela 2025-04-28 100154.png)
+![Gráfico ThingSpeak](https://github.com/fmoreira10/Projeto-Monitoramento-ESP32/blob/master/Imagens/Captura%20de%20tela%202025-04-28%20100154.png)
 
 Você pode ver o canal ThingSpeak com os dados em tempo real aqui:  
 🔗 **[Canal ThingSpeak](https://thingspeak.mathworks.com/channels/2681880)**
