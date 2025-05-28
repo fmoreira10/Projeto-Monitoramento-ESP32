@@ -61,7 +61,7 @@ Você pode ver o canal ThingSpeak com os dados em tempo real aqui:
 Este projeto foi simulado com sucesso no ambiente virtual Wokwi:  
 🔗 **[Acesse a simulação](https://wokwi.com/projects/410766655456274433)**
 
-![Wokwi](Imagens/print_wokwi.png)
+![Wokwi](https://github.com/fmoreira10/Projeto-Monitoramento-ESP32/blob/master/Imagens/Captura%20de%20tela%202025-04-29%20174047.png)
 
 ---
 
