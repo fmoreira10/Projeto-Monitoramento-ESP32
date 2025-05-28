@@ -102,8 +102,8 @@ Acesse a documentação acadêmica completa do projeto:
 
 ## 📂 Documentação
 
-- 📄 [Relatório Final PDF](Documentacao/A3_Relatorio_Final)
-- 📝 [Relatório Word (editável)](Documentacao/Relatorio.docx)
+- 📄 [Relatório Final PDF](Documentacao/A4_Relatorio_Final)
+- 📝 [Relatório Word (editável)](Documentacao/A4_Relatorio_Final)
 
 ---
 
