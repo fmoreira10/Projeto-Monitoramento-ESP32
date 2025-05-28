@@ -103,7 +103,7 @@ Acesse a documentação acadêmica completa do projeto:
 ## 📂 Documentação
 
 - 📄 [Relatório Final PDF](https://github.com/fmoreira10/Projeto-Monitoramento-ESP32/blob/master/Documentacao/A4_Relatorio_Final.pdf)
-- 📝 [Relatório Word (https://github.com/fmoreira10/Projeto-Monitoramento-ESP32/blob/master/Documentacao/A4_Relatorio_Final.docx)
+- 📝 [Relatório Word](https://github.com/fmoreira10/Projeto-Monitoramento-ESP32/blob/master/Documentacao/A4_Relatorio_Final.docx)
 
 ---
 
