@@ -68,7 +68,7 @@ Este projeto foi simulado com sucesso no ambiente virtual Wokwi:
 ## 🎥 Demonstração em vídeo
 
 Assista à demonstração do projeto em funcionamento no YouTube (vídeo não listado):  
-🔗 **[Assista ao vídeo](https://youtube.com/SEU_VIDEO_AQUI)**
+🔗 **[Assista ao vídeo](https://youtu.be/VYlimXNDr7Y?si=XsyUXsbUd0TET6M)**
 
 ---
 
