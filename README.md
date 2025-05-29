@@ -1,19 +1,22 @@
 # 🌊 Projeto de Monitoramento de Nível de Água com ESP32 e IoT
-Implementação e Aplicabilidade da Internet das Coisas (IoT) na Gestão da Água e Saneamento
-
 Este projeto foi desenvolvido como parte da atividade final da disciplina **OBJETOS INTELIGENTES CONECTADOS** no curso de Análise e Desenvolvimento de Sistemas.
 
-Este projeto tem como objetivo realizar o monitoramento de distâncias utilizando um sensor ultrassônico conectado a um microcontrolador ESP32. Os dados coletados são enviados ao computador via comunicação serial e processados por um script em Python, que exibe os resultados em tempo real.
+Este projeto tem como objetivo aplicar a **Internet das Coisas (IoT)** para realizar o **monitoramento do nível da água em reservatórios**, utilizando o microcontrolador **ESP32** e sensores como o **HC-SR04 (ultrassônico)** e o **DHT22 (temperatura e umidade)**. O sistema realiza leituras periódicas e envia os dados para a nuvem, por meio do **protocolo MQTT**, utilizando a plataforma **ThingSpeak**.
 
-A proposta é criar um sistema embarcado usando **ESP32**, sensores e atuadores, capaz de enviar dados de forma remota via **MQTT** e visualizar as informações no **ThingSpeak**.
+Além disso, o projeto integra um **relé** e um **LED** como atuadores, permitindo o acionamento automático de dispositivos (como bombas d'água) e sinalização visual em caso de níveis críticos.
+
+O projeto foi desenvolvido inicialmente em simulação virtual (Wokwi) e posteriormente validado fisicamente, demonstrando sua viabilidade prática e aplicabilidade em contextos reais de **gestão hídrica sustentável**.
 
 ---
 
 ### ⚙️ **Como funciona**
 
-- O sensor ultrassônico mede a distância até um obstáculo.  
-- O ESP32 calcula o valor e envia os dados pela porta serial.  
-- O script Python, executado no computador, lê os dados recebidos e os exibe no terminal em tempo real.
+- O sensor ultrassônico (HC-SR04) mede a distância até a superfície da água no reservatório.  
+- O sensor DHT22 mede temperatura e umidade do ambiente.  
+- O ESP32 processa os dados, analisa os valores e envia à nuvem via protocolo MQTT.  
+- Um LED é acionado como alerta visual em caso de nível baixo.  
+- Um relé pode acionar automaticamente um sistema de bombeamento ou reabastecimento.  
+- Todos os dados são enviados para a plataforma ThingSpeak, onde podem ser monitorados em tempo real.
 
 
 ---
