@@ -9,12 +9,12 @@ A proposta é criar um sistema embarcado usando **ESP32**, sensores e atuadores,
 
 ---
 
-⚙️ Como funciona
-1. O sensor ultrassônico mede a distância até um obstáculo.
+### ⚙️ **Como funciona**
 
-2. O ESP32 calcula o valor e envia os dados pela porta serial.
+- O sensor ultrassônico mede a distância até um obstáculo.  
+- O ESP32 calcula o valor e envia os dados pela porta serial.  
+- O script Python, executado no computador, lê os dados recebidos e os exibe no terminal em tempo real.
 
-3. O script Python lê os dados serialmente e exibe no terminal.
 
 ---
 
