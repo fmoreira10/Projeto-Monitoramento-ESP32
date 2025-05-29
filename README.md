@@ -3,7 +3,18 @@ Implementação e Aplicabilidade da Internet das Coisas (IoT) na Gestão da Águ
 
 Este projeto foi desenvolvido como parte da atividade final da disciplina **OBJETOS INTELIGENTES CONECTADOS** no curso de Análise e Desenvolvimento de Sistemas.
 
+Este projeto tem como objetivo realizar o monitoramento de distâncias utilizando um sensor ultrassônico conectado a um microcontrolador ESP32. Os dados coletados são enviados ao computador via comunicação serial e processados por um script em Python, que exibe os resultados em tempo real.
+
 A proposta é criar um sistema embarcado usando **ESP32**, sensores e atuadores, capaz de enviar dados de forma remota via **MQTT** e visualizar as informações no **ThingSpeak**.
+
+---
+
+⚙️ Como funciona
+1. O sensor ultrassônico mede a distância até um obstáculo.
+
+2. O ESP32 calcula o valor e envia os dados pela porta serial.
+
+3. O script Python lê os dados serialmente e exibe no terminal.
 
 ---
 
